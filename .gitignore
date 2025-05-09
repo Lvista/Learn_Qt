@@ -1,0 +1,3 @@
+# .gitignore
+__pycache__/
+*.py[cod]  # 忽略所有 .pyc, .pyo, .pyd 文件
