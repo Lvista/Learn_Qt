@@ -1,3 +1,7 @@
+'''
+The first sketch about https://www.pythonguis.com/tutorials/creating-your-first-pyqt-window/
+'''
+
 import sys
 
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMainWindow
@@ -6,16 +10,16 @@ from PyQt5.QtCore import QSize, Qt
 
 class MainWindow(QMainWindow):
     '''
-    主窗口类，继承自 QMainWindow。
+    The main window class inherits from QMainWindow.
     
-    这个类创建了一个基本的应用程序窗口，包含一个按钮作为中央控件。
-    它提供了应用程序的主界面框架，可以进一步扩展添加更多功能。
+    This class creates a basic application window that includes a button as the central control.
+    It provides the main interface framework of the application, which can be further expanded to add more features.
     
-    属性:
+    para:
         None
         
-    方法:
-        __init__: 初始化主窗口，设置窗口标题和基本UI元素
+    method:
+        __init__: Initialize the main window, set the window title and basic UI elements
     '''
     def __init__(self):
         super().__init__()
@@ -29,7 +33,7 @@ class MainWindow(QMainWindow):
 
 def main():
     '''
-    主函数
+    main function
 
     @retval None: need restert
     0: exit OK
@@ -46,4 +50,11 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    while 1:
+        ret = main()
+        break
+        if not ret is None:
+            break
+        restart_program()
+    print("-- program exit, code:", ret)
+    sys.exit(ret)
