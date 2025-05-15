@@ -7,3 +7,4 @@
 - `4-layouts.py`: corresponding to [here](https://www.pythonguis.com/tutorials/pyqt-signals-slots-events/)
 - `5-Toolbars_Menus.py`: corresponding to [here](https://www.pythonguis.com/tutorials/pyqt-actions-toolbars-menus/)
 - `6-Dialogs_Alerts.py`: corresponding to [here](https://www.pythonguis.com/tutorials/pyqt-actions-toolbars-menus/)
+- `7-Multi-Windows.py`: corresponding to [here](https://www.pythonguis.com/tutorials/creating-multiple-windows/#menu)
